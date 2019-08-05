@@ -15,12 +15,14 @@
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon">Home</span>
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
+                  <a class="nav-link" href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\index.html">Home</a>
+                <li class="nav-item">
                   <a class="nav-link" href="#">Comparison<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -31,7 +33,7 @@
                     Plots
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Max Temperature</a>
+                    <a class="dropdown-item" href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\temperature.html">Max Temperature</a>
                     <a class="dropdown-item" href="#">Humidity</a>
                     <a class="dropdown-item" href="#">Cloudiness</a>
                     <a class="dropdown-item" href="#">Wind Speed</a>
@@ -54,15 +56,15 @@
         </div>
 
           <div class="row">
-            <div class="offset-1 card border-warning text-center" style="width: 18rem;">
+            <div class="offset-1 card border-warning text-center" style="width: 15rem;">
                 <img src="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\Resources\assets\images\Fig1.png" class="card-img-top" alt="Temperature">
                 <div class="card-body text-warning">
                     <h5 class="card-title">Temperature vs Lattitude</h5>
                     <p class="card-text">Temperature spread for cities across lattitude</p>
-                    <a href="#" class="btn btn-warning">Details</a>
+                    <a href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\temperature.html" class="btn btn-warning">Details</a>
                 </div>
             </div>
-            <div class="card border-success text-center" style="width: 18rem;">
+            <div class="offset-1 card border-success text-center" style="width: 15rem;">
                 <img src="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\Resources\assets\images\Fig2.png" class="card-img-top" alt="Humidity">
                 <div class="card-body text-success">
                     <h5 class="card-title">Humidity vs Lattitude</h5>
@@ -70,7 +72,7 @@
                     <a href="#" class="btn btn-success">Details</a>
                 </div>
             </div>
-            <div class="card border-primary text-center" style="width: 18rem;">
+            <div class="offset-1 card border-primary text-center" style="width: 15rem;">
                 <img src="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\Resources\assets\images\Fig3.png" class="card-img-top" alt="Cloudiness">
                 <div class="card-body text-primary">
                     <h5 class="card-title">Cloudiness vs Lattitude</h5>
@@ -78,7 +80,7 @@
                     <a href="#" class="btn btn-primary">Details</a>
                 </div>
             </div>
-            <div class="card border-info text-center" style="width: 18rem;">
+            <div class="offset-1 card border-info text-center" style="width: 15rem;">
                 <img src="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\Resources\assets\images\Fig4.png" class="card-img-top" alt="Wind Speed">
                 <div class="card-body text-info">
                     <h5 class="card-title">Wind Speed vs Lattitude</h5>
@@ -88,20 +90,7 @@
             </div>
         </div>
 
-        <div class="row">
-        <div id='table-container'></div>
-.
- 
-        <script>
-        CsvToHtmlTable.init({
-            csv_path: 'C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\Resources\cities.csv',
-            element: 'table-container', 
-            allow_download: true,
-            csv_options: {separator: ';', delimiter: '"'},
-            datatables_options: {"paging": false}
-        });
-        </script>
-        </div>
+
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
