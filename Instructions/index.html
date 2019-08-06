@@ -11,11 +11,11 @@
   <div class="container-fuild">
 
       <div class="row">
-          <div <span class="offset-1 badge badge-info"><h1> Lattitude</h1></span></div>
+          <div <span class="offset-1 badge badge-dark"><h1> Lattitude</h1></span></div>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">Home</span>
+              <span class="navbar-toggler-icon"></span>
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -23,10 +23,10 @@
                 <li class="nav-item">
                   <a class="nav-link" href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\index.html">Home</a>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Comparison<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\comparison.html">Comparison<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Data</a>
+                  <a class="nav-link" href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\data.html">Data</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,9 +34,9 @@
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\temperature.html">Max Temperature</a>
-                    <a class="dropdown-item" href="#">Humidity</a>
-                    <a class="dropdown-item" href="#">Cloudiness</a>
-                    <a class="dropdown-item" href="#">Wind Speed</a>
+                    <a class="dropdown-item" href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\windspeed.html">Wind Speed</a>
                   </div>
                 </li>
               </ul>
@@ -44,7 +44,8 @@
           </nav>
       </div>
 
-        <div class="row">            
+        <div class="row">
+            <div class="col-md-12">            
                 <div class="jumbotron jumbotron-fluid">                   
                       <h1 class="offset-1 display-4">Summary: Lattitude vs X</h1>
                       <p class="offset-1 lead">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we
@@ -52,14 +53,15 @@
                           cloudiness, wind speed and humidity. This site provides the source data and visualization created as part of the analysis, as well as explanations 
                           and descriptions of any trends and correlations witnessed.
                       </p>                
-                </div>          
+                </div>
+            </div>           
         </div>
 
           <div class="row">
             <div class="offset-1 card border-warning text-center" style="width: 15rem;">
                 <img src="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\Resources\assets\images\Fig1.png" class="card-img-top" alt="Temperature">
                 <div class="card-body text-warning">
-                    <h5 class="card-title">Temperature vs Lattitude</h5>
+                    <h6 class="card-title">Temperature vs Lattitude</h6>
                     <p class="card-text">Temperature spread for cities across lattitude</p>
                     <a href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\temperature.html" class="btn btn-warning">Details</a>
                 </div>
@@ -67,31 +69,28 @@
             <div class="offset-1 card border-success text-center" style="width: 15rem;">
                 <img src="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\Resources\assets\images\Fig2.png" class="card-img-top" alt="Humidity">
                 <div class="card-body text-success">
-                    <h5 class="card-title">Humidity vs Lattitude</h5>
+                    <h6 class="card-title">Humidity vs Lattitude</h6>
                     <p class="card-text">Humidity spread for cities across lattitude</p>
-                    <a href="#" class="btn btn-success">Details</a>
+                    <a href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\humidity.html" class="btn btn-success">Details</a>
                 </div>
             </div>
             <div class="offset-1 card border-primary text-center" style="width: 15rem;">
                 <img src="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\Resources\assets\images\Fig3.png" class="card-img-top" alt="Cloudiness">
                 <div class="card-body text-primary">
-                    <h5 class="card-title">Cloudiness vs Lattitude</h5>
+                    <h6 class="card-title">Cloudiness vs Lattitude</h6>
                     <p class="card-text">Cloudiness spread for cities across lattitude</p>
-                    <a href="#" class="btn btn-primary">Details</a>
+                    <a href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\cloudiness.html" class="btn btn-primary">Details</a>
                 </div>
             </div>
             <div class="offset-1 card border-info text-center" style="width: 15rem;">
                 <img src="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\Resources\assets\images\Fig4.png" class="card-img-top" alt="Wind Speed">
                 <div class="card-body text-info">
-                    <h5 class="card-title">Wind Speed vs Lattitude</h5>
+                    <h6 class="card-title">Wind Speed vs Lattitude</h6>
                     <p class="card-text">Wind speed spread for cities across lattitude</p>
-                    <a href="#" class="btn btn-info">Details</a>
+                    <a href="C:\Users\j6921\Documents\UCIIRV20190513DATA3\Homework\11-Web\Instructions\windspeed.html" class="btn btn-info">Details</a>
                 </div>
             </div>
         </div>
-
-
-
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
